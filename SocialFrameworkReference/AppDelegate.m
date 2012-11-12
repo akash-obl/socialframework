@@ -8,11 +8,15 @@
 
 #import "AppDelegate.h"
 
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    FacebookAccountManager* sharedManager = [FacebookAccountManager sharedAccount];
+    [sharedManager requestPermissions];
+    
     return YES;
 }
 							

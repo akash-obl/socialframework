@@ -11,4 +11,7 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import <Social/Social.h>
+    #import <Accounts/Accounts.h>
+    #import "FacebookAccountManager.h"
 #endif
