@@ -23,8 +23,7 @@
 
 @implementation SecondViewController
 
-#pragma
-#pragma mark - Methods
+
 // IGNORE
 -(void)stub
 {
